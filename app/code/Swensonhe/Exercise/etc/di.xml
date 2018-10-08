@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\AdvancedPricing">
+        <plugin name="Swensonhe_Exercise_Plugin_Catalog_Ui_DataProvider_Product_Form_Modifier_AdvancedPricing"
+                type="Swensonhe\Exercise\Plugin\Catalog\Ui\DataProvider\Product\Form\Modifier\AdvancedPricing"  />
+    </type>
+    <type name="Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\General">
+        <plugin name="Swensonhe_Exercise_Plugin_Catalog_Ui_DataProvider_Product_Form_Modifier_General"
+                type="Swensonhe\Exercise\Plugin\Catalog\Ui\DataProvider\Product\Form\Modifier\General"  />
+    </type>
+</config>

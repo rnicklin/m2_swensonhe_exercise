@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="catalog" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="swensonhe" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Swenson He Exercise Configuration</label>
+                <field id="pricing_disabled_for_attribute_sets" translate="label" type="multiselect" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Disable price for following attribute sets:</label>
+                    <comment>Applies to any product that is edited via the Magento Admin and is assigned to any of the following attribute set(s). All pricing and tax input fields will be hidden for matching products, and the product's price will be automatically set to '0.00'.</comment>
+                    <source_model>Magento\Catalog\Model\Product\AttributeSet\Options</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
